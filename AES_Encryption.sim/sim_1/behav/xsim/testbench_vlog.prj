@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../AES_Encryption.gen/sources_1/bd/test_deign/ipshared/ec67/hdl" --include "../../../../AES_Encryption.gen/sources_1/bd/test_deign/ipshared/6b2b/hdl" --include "../../../../AES_Encryption.gen/sources_1/bd/AXI_AES_test/ipshared/ec67/hdl" --include "../../../../AES_Encryption.gen/sources_1/bd/AXI_AES_test/ipshared/6b2b/hdl" --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/aes_top.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/forward_substitution_box.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/generate_key.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/last_round.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/mix_columns.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/round_iteration.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/shift_rows.v" \
+"../../../../AES_Encryption.srcs/sources_1/imports/src/sub_bytes.v" \
+"../../../../AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

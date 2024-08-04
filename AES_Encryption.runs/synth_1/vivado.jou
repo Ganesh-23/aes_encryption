@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May 28 01:39:54 2024
+# Process ID: 25812
+# Current directory: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1
+# Command line: vivado.exe -log aes_top_inp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes_top_inp.tcl
+# Log file: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1/aes_top_inp.vds
+# Journal file: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1\vivado.jou
+# Running On: HARSHA-2003, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source aes_top_inp.tcl -notrace

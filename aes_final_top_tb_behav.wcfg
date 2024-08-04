@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="aes_final_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="aes_final_top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="357.401 ns"></ZoomEndTime>
+      <Cursor1Time time="179.600 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="355"></NameColumnWidth>
+      <ValueColumnWidth column_width="171"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="64" />
+   <wvobject fp_name="/aes_final_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_data_0" type="array">
+      <obj_property name="ElementShortName">inp_data_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_data_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_data_1" type="array">
+      <obj_property name="ElementShortName">inp_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_data_2" type="array">
+      <obj_property name="ElementShortName">inp_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_data_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_data_3" type="array">
+      <obj_property name="ElementShortName">inp_data_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_data_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_key_0" type="array">
+      <obj_property name="ElementShortName">inp_key_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_key_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_key_1" type="array">
+      <obj_property name="ElementShortName">inp_key_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_key_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_key_2" type="array">
+      <obj_property name="ElementShortName">inp_key_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_key_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/inp_key_3" type="array">
+      <obj_property name="ElementShortName">inp_key_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_key_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/out_data_0" type="array">
+      <obj_property name="ElementShortName">out_data_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/out_data_1" type="array">
+      <obj_property name="ElementShortName">out_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/out_data_2" type="array">
+      <obj_property name="ElementShortName">out_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/out_data_3" type="array">
+      <obj_property name="ElementShortName">out_data_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/out_data" type="array">
+      <obj_property name="ElementShortName">out_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/start_i" type="logic">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_DATA0" type="array">
+      <obj_property name="ElementShortName">IN_DATA0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_DATA1" type="array">
+      <obj_property name="ElementShortName">IN_DATA1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_DATA2" type="array">
+      <obj_property name="ElementShortName">IN_DATA2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_DATA3" type="array">
+      <obj_property name="ElementShortName">IN_DATA3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_KEY0" type="array">
+      <obj_property name="ElementShortName">IN_KEY0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_KEY0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_KEY1" type="array">
+      <obj_property name="ElementShortName">IN_KEY1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_KEY1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_KEY2" type="array">
+      <obj_property name="ElementShortName">IN_KEY2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_KEY2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_KEY3" type="array">
+      <obj_property name="ElementShortName">IN_KEY3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_KEY3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_DATA0" type="array">
+      <obj_property name="ElementShortName">OUT_DATA0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_DATA1" type="array">
+      <obj_property name="ElementShortName">OUT_DATA1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_DATA2" type="array">
+      <obj_property name="ElementShortName">OUT_DATA2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_DATA3" type="array">
+      <obj_property name="ElementShortName">OUT_DATA3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_DATA" type="array">
+      <obj_property name="ElementShortName">IN_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/IN_KEY" type="array">
+      <obj_property name="ElementShortName">IN_KEY[127:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_KEY[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_DATA" type="array">
+      <obj_property name="ElementShortName">OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R0_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R0_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R0_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/KEY" type="array">
+      <obj_property name="ElementShortName">KEY[127:0]</obj_property>
+      <obj_property name="ObjectShortName">KEY[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R1_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R1_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R1_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R2_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R2_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R2_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R3_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R3_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R3_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R4_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R4_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R4_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R5_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R5_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R5_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R6_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R6_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R6_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R7_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R7_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R7_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R8_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R8_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R8_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/R9_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">R9_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R9_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW1" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW2" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW3" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW4" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW4[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW4[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW5" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW5[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW5[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW6" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW6[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW6[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW7" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW7[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW7[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW8" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW8[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW8[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYW9" type="array">
+      <obj_property name="ElementShortName">OUT_KEYW9[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYW9[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR0" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR1" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR2" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR3" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR4" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR4[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR4[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR5" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR5[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR5[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR6" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR6[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR6[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR7" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR7[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR7[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR8" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR8[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR8[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aes_final_top_tb/aes_final_top_DUT/inst_aes_top/OUT_KEYR9" type="array">
+      <obj_property name="ElementShortName">OUT_KEYR9[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_KEYR9[127:0]</obj_property>
+   </wvobject>
+</wave_config>

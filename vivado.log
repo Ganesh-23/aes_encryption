@@ -1,0 +1,354 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jun  1 12:33:30 2024
+# Process ID: 16260
+# Current directory: C:/Vivado_proj/Vivado/AES_Encryption
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46952 C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.xpr
+# Log file: C:/Vivado_proj/Vivado/AES_Encryption/vivado.log
+# Journal file: C:/Vivado_proj/Vivado/AES_Encryption\vivado.jou
+# Running On: HARSHA-2003, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.xpr
+WARNING: [Board 49-91] Board repository path 'C:/Users/Harsha' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Harsha' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/J/Desktop/AMD' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/J/Desktop/AMD' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/J/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/J/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Vivado/AXI_AES_Interface/Vivado/Projects/Vivado/AES_Encryption/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Users/Harsha' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Users/Harsha' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Floating' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Floating' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/J/Desktop/Signachip/Floating' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/J/Desktop/Signachip/Floating' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Point' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Point' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/J/Desktop/Signachip/FPM' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/J/Desktop/Signachip/FPM' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Boards' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/B' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Vivado_proj/Vivado/AXI_AES_Interface/and' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/AMD_Vivado/Vivado_Projects/Low_power_AAT/J/AppData/Roaming/Xilinx/Vivado/_Point_Adder/_Point_Adder/J/AppData/Roaming/Xilinx/Vivado/Multiplier/2/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/J/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Vivado_proj/Vivado/AXI_AES_Interface/Constraint' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Vivado_proj/Boards' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Vivado_proj/Vivado/AXI_AES_Interface/Files/vivado-boards-master/vivado-boards-master/new/board_files' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Vivado_proj/Vivado/AXI_AES_Interface/and' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Vivado_proj/Vivado/AXI_AES_Interface/Constraint' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'c:/Vivado_proj/Vivado/AXI_AES_Interface/Files/vivado-boards-master/vivado-boards-master/new/board_files' does not exist, it will not be used to search board files.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/aes_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/forward_substitution_box.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/generate_key.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/last_round.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/mix_columns.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/round_iteration.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/shift_rows.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/sub_bytes.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/testbench.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'test_deign.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+test_deign_AES_AXI_NEW_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'AXI_AES_test.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+AXI_AES_test_AES_AXI_NEW_0_1
+
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1519.215 ; gain = 368.582
+update_compile_order -fileset sources_1
+import_files -force -norecurse {{C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/aes_top.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/shift_rows.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/round_iteration.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/last_round.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/mix_columns.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/AES_FINAL_TOP.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/forward_substitution_box.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/generate_key.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/sub_bytes.v}}
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_15 -L processing_system7_vip_v1_0_17 -L xilinx_vip -prj testbench_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'aes_top.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:5]
+ERROR: [VRFC 10-3195] cannot open include file 'generate_key.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:6]
+ERROR: [VRFC 10-3195] cannot open include file 'mix_columns.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:7]
+ERROR: [VRFC 10-3195] cannot open include file 'last_round.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:8]
+ERROR: [VRFC 10-3195] cannot open include file 'forward_substitution_box.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:9]
+ERROR: [VRFC 10-3195] cannot open include file 'round_iteration.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:10]
+ERROR: [VRFC 10-3195] cannot open include file 'shift_rows.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:11]
+ERROR: [VRFC 10-3195] cannot open include file 'sub_bytes.v' [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:12]
+INFO: [VRFC 10-311] analyzing module testbench
+ERROR: [VRFC 10-8530] module 'testbench' is ignored due to previous errors [C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v:14]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.srcs\sources_1\new\AES_FINAL_TOP.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.srcs\sim_1\imports\Baseline-AES\testbench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.srcs\sources_1\new\AES_FINAL_TOP.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.srcs\sim_1\imports\Baseline-AES\testbench.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.srcs\sources_1\new\AES_FINAL_TOP.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Vivado_proj\Vivado\AES_Encryption\AES_Encryption.srcs\sim_1\imports\Baseline-AES\testbench.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_15 -L processing_system7_vip_v1_0_17 -L xilinx_vip -prj testbench_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.srcs/sim_1/imports/Baseline-AES/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FORWARD_SUBSTITUTION_BOX
+Compiling module xil_defaultlib.GENERATE_KEY
+Compiling module xil_defaultlib.SUB_BYTES
+Compiling module xil_defaultlib.SHIFT_ROWS
+Compiling module xil_defaultlib.MIX_COLUMNS
+Compiling module xil_defaultlib.ROUND_ITERATION
+Compiling module xil_defaultlib.LAST_ROUND
+Compiling module xil_defaultlib.AES128
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -protoinst "protoinst_files/test_deign.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/test_deign.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/test_deign.protoinst for the following reason(s):
+There are no instances of module "test_deign" in the design.
+
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1612.309 ; gain = 48.555
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/testbench/AES128_DUT}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_15 -L processing_system7_vip_v1_0_17 -L xilinx_vip -prj testbench_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Vivado_proj/Vivado/AES_Encryption/AES_Encryption.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -protoinst "protoinst_files/test_deign.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/test_deign.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/test_deign.protoinst for the following reason(s):
+There are no instances of module "test_deign" in the design.
+
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1752.387 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  1 18:13:34 2024...

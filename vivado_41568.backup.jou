@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu May 30 10:24:11 2024
+# Process ID: 41568
+# Current directory: C:/Users/Harsha B J/Desktop/AMD Vivado/Projects/Vivado/AES_Encryption
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15988 C:\Users\Harsha B J\Desktop\AMD Vivado\Projects\Vivado\AES_Encryption\AES_Encryption.xpr
+# Log file: C:/Users/Harsha B J/Desktop/AMD Vivado/Projects/Vivado/AES_Encryption/vivado.log
+# Journal file: C:/Users/Harsha B J/Desktop/AMD Vivado/Projects/Vivado/AES_Encryption\vivado.jou
+# Running On: HARSHA-2003, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Harsha B J/Desktop/AMD Vivado/Projects/Vivado/AES_Encryption/AES_Encryption.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/aes_top.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/shift_rows.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/round_iteration.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/last_round.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/mix_columns.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/AES_FINAL_TOP.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/forward_substitution_box.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/generate_key.v} {C:/Users/Harsha B J/Desktop/8th Sem Major Project/Projects/src/sub_bytes.v}}
+update_compile_order -fileset sources_1
+launch_simulation
+source aes_final_top_tb.tcl
+close_sim
+launch_simulation
+source aes_final_top_tb.tcl
+close_sim

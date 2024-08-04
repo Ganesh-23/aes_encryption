@@ -1,0 +1,331 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May 28 01:39:54 2024
+# Process ID: 25812
+# Current directory: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1
+# Command line: vivado.exe -log aes_top_inp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes_top_inp.tcl
+# Log file: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1/aes_top_inp.vds
+# Journal file: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1\vivado.jou
+# Running On: HARSHA-2003, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source aes_top_inp.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 509.676 ; gain = 216.492
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/AMD_Vivado/Vivado_Projects/ip_repo/AES_AXI_NEW_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_2/Vivado/2023.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/utils_1/imports/synth_1/AES128.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/utils_1/imports/synth_1/AES128.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top aes_top_inp -part xc7z020clg400-1 -directive PerformanceOptimized -fsm_extraction one_hot -keep_equivalent_registers -resource_sharing off -no_lc -shreg_min_size 5
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30576
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1380.715 ; gain = 440.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'reset', assumed default net type 'wire' [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:62]
+INFO: [Synth 8-6157] synthesizing module 'aes_top_inp' [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:23]
+INFO: [Synth 8-6157] synthesizing module 'aes_final_top' [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/AES_FINAL_TOP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'AES128' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/aes_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'GENERATE_KEY' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/generate_key.v:1]
+INFO: [Synth 8-6157] synthesizing module 'FORWARD_SUBSTITUTION_BOX' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/forward_substitution_box.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FORWARD_SUBSTITUTION_BOX' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/forward_substitution_box.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'GENERATE_KEY' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/generate_key.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROUND_ITERATION' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/round_iteration.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SUB_BYTES' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/sub_bytes.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SUB_BYTES' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/sub_bytes.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SHIFT_ROWS' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/shift_rows.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SHIFT_ROWS' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/shift_rows.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MIX_COLUMNS' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/mix_columns.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MIX_COLUMNS' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/mix_columns.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ROUND_ITERATION' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/round_iteration.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LAST_ROUND' [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/last_round.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LAST_ROUND' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/last_round.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AES128' (0#1) [C:/Users/Harsha B J/Desktop/Projects/Accelerating_Standard_and_Modified_AES128-main/Baseline-AES/aes_top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'aes_final_top' (0#1) [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/AES_FINAL_TOP.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'aes_top_inp' (0#1) [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:23]
+WARNING: [Synth 8-7137] Register valid_o_reg in module aes_final_top has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/AES_FINAL_TOP.v:110]
+WARNING: [Synth 8-3848] Net reset in module/entity aes_top_inp does not have driver. [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:62]
+WARNING: [Synth 8-3848] Net inp_key_1 in module/entity aes_top_inp does not have driver. [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:38]
+WARNING: [Synth 8-3848] Net inp_key_2 in module/entity aes_top_inp does not have driver. [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:39]
+WARNING: [Synth 8-3848] Net inp_key_3 in module/entity aes_top_inp does not have driver. [C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.srcs/sources_1/new/aes_top_inp.v:40]
+WARNING: [Synth 8-7129] Port clk in module SHIFT_ROWS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module MIX_COLUMNS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module AES128 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module aes_top_inp is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1497.832 ; gain = 557.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1497.832 ; gain = 557.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1497.832 ; gain = 557.398
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.275 . Memory (MB): peak = 1497.832 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/AMD_Vivado/Zybo-Z7-Master.xdc]
+Finished Parsing XDC File [C:/AMD_Vivado/Zybo-Z7-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1537.785 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 1537.785 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 1     
++---XORs : 
+	   2 Input    128 Bit         XORs := 11    
+	   3 Input     32 Bit         XORs := 10    
+	   2 Input     32 Bit         XORs := 30    
+	   2 Input      1 Bit         XORs := 531   
+	   3 Input      1 Bit         XORs := 549   
+	   5 Input      1 Bit         XORs := 243   
+	   4 Input      1 Bit         XORs := 414   
+	   6 Input      1 Bit         XORs := 72    
++---Registers : 
+	              128 Bit    Registers := 22    
+	               32 Bit    Registers := 12    
+	                8 Bit    Registers := 200   
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---ROMs : 
+	                    ROMs := 200   
++---Muxes : 
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port clk in module MIX_COLUMNS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module AES128 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module aes_top_inp is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:39 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++----------------+---------------------+---------------+----------------+
+|Module Name     | RTL Object          | Depth x Width | Implemented As | 
++----------------+---------------------+---------------+----------------+
+|GENERATE_KEY    | INST3/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST2/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST1/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST0/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST3/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST2/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST1/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST0/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST2/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST1/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST0/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST3/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST2/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST0/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST2/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST1/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST3/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST2/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST1/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST3/C_REG_reg     | 256x8         | Block RAM      | 
+|GENERATE_KEY    | INST0/C_REG_reg     | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST13/C_REG_reg | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST11/C_REG_reg | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST10/C_REG_reg | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST9/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST8/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST7/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST6/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST5/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST4/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST2/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST1/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST0/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST15/C_REG_reg | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST8/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST7/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST1/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST0/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST15/C_REG_reg | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST12/C_REG_reg | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST3/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST5/C_REG_reg  | 256x8         | Block RAM      | 
+|ROUND_ITERATION | SB/INST13/C_REG_reg | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST15/C_REG_reg | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST14/C_REG_reg | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST13/C_REG_reg | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST10/C_REG_reg | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST9/C_REG_reg  | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST8/C_REG_reg  | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST7/C_REG_reg  | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST5/C_REG_reg  | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST4/C_REG_reg  | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST2/C_REG_reg  | 256x8         | Block RAM      | 
+|LAST_ROUND      | SB/INST1/C_REG_reg  | 256x8         | Block RAM      | 
++----------------+---------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:48 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:48 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:48 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |    32|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:51 . Memory (MB): peak = 1537.785 ; gain = 557.398
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1537.785 ; gain = 597.352
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1537.785 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1537.785 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 739d8f9f
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:01:04 . Memory (MB): peak = 1537.785 ; gain = 1020.652
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1537.785 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.runs/synth_1/aes_top_inp.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file aes_top_inp_utilization_synth.rpt -pb aes_top_inp_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May 28 01:41:24 2024...

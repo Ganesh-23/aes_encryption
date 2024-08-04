@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 29 10:59:16 2024
+# Process ID: 10036
+# Current directory: C:/AMD_Vivado/Vivado_Projects/AES_Encryption
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31336 C:\AMD_Vivado\Vivado_Projects\AES_Encryption\AES_Encryption.xpr
+# Log file: C:/AMD_Vivado/Vivado_Projects/AES_Encryption/vivado.log
+# Journal file: C:/AMD_Vivado/Vivado_Projects/AES_Encryption\vivado.jou
+# Running On: HARSHA-2003, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/AMD_Vivado/Vivado_Projects/AES_Encryption/AES_Encryption.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source aes_final_top_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/aes_final_top_tb/aes_final_top_DUT/inst_aes_top}} 
+save_wave_config {C:/AMD_Vivado/Vivado_Projects/AES_Encryption/aes_final_top_tb_behav.wcfg}
+close_sim

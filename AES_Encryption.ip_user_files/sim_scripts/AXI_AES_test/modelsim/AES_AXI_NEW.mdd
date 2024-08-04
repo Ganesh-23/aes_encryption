@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER AES_AXI_NEW
+	OPTION supported_peripherals = (AES_AXI_NEW);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = AES_AXI_NEW;
+END DRIVER
